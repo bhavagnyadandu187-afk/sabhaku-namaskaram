@@ -1,0 +1,13 @@
+div{
+    background-color: magenta;
+    text-align: center;
+    color: rgb(0, 200, 255);
+    width: 400px;
+    height: 400px;
+    text-shadow: 4px black ;
+}
+h1{
+    font-family: cursive;
+    color:red;
+
+}
