@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             font-family: Arial, Helvetica, sans-serif;
+             background-color: antiquewhite;
+        }
+        .Product{
+            width: 200px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px black;
+            background-color: white;
+        }
+        .Product img{
+            object-fit: cover;
+            width: 100%;
+            height: 150px;
+            border-radius: 100px;
+        }
+        button{
+            background-color: blueviolet;
+            padding: 15px;
+            border: none;
+            border-radius: 15px;
+            color: black;
+            cursor: pointer;
+        }
+        .Product:hover{
+            transform: scale(1.03);
+            transition: 2s ;
+            background-color: rgb(222, 216, 206);
+        }
+    </style>
+</head>
+<body>
+    <div class="Product">
+        <img src="https://images.pexels.com/photos/19335258/pexels-photo-19335258.jpeg">
+        <h2>Mobile</h2>
+        <p>$50</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="Product">
+        <img src="https://images.pexels.com/photos/6372939/pexels-photo-6372939.jpeg">
+        <h2>Laptop</h2>
+        <p>$200</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="Product">
+        <img src="https://images.pexels.com/photos/15063615/pexels-photo-15063615.jpeg">
+        <h2>Car</h2>
+        <p>$20000</p>
+        <button>Add to Cart</button>
+    </div>
+</body>
+</html>
